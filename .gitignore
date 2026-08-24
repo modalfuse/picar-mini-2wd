@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+
+# MicroPython / local device dumps
+.mpy
+device-files/
+
+# Build / EDA temporary
+*.bak
+*.tmp
+~*
+Gerber_Preview/
+__Previews/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials*

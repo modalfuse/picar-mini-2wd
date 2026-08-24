@@ -1,0 +1,9 @@
+Item,Part,Qty,Notes
+MCU,ESP32-C3 SuperMini,1,Plug into 1x8x2 header on driver board
+Driver PCB,PiCar Mini driver board v1.1,1,TC1508A + power + LED + SW + ultrasonic header
+Motor driver IC,TC1508A,1,On board dual H-bridge
+Battery,3.7V Li-ion 18650 with XH2.54 2P,1,To 3.7VBAT / GND
+Motor,TT gear motor,2,motor01 left / motor34 right XH2.54
+Caster,Universal wheel,1,Rear or front caster
+Ultrasonic,HC-SR04 (3.3V-5V),1,4P header Trig=GPIO7 Echo=GPIO10
+Chassis,2WD acrylic/plastic base,1,Fits TT motors

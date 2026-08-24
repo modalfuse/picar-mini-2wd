@@ -1,0 +1,187 @@
+CERN Open Hardware Licence Version 2 - Permissive
+
+Preamble
+
+CERN has developed this licence to promote collaboration among
+hardware designers and to provide a legal tool which supports the
+freedom to use, study, modify, share and distribute hardware designs
+and products based on those designs. Version 2 of the Open Hardware
+Licence was published in 2020 and covers hardware and software.
+
+This CERN-OHL-P is a permissive licence.
+
+1 Definitions
+
+1.1 'Licence' means this CERN-OHL-P.
+
+1.2 'Compatible Licence' means
+     a) any earlier version of the CERN Open Hardware licence, or
+     b) any version of the CERN-OHL or any other licence, or
+     c) any open source software licence
+     which upon notice to CERN (through its website or otherwise)
+     CERN has expressly declared is compatible with this Licence.
+
+1.3 'Source' means information such as design materials or digital
+     code which can be applied to Make or test a Product or to
+     prepare a Product for use, Conveyance or sale, regardless of its
+     medium or how it is expressed. Source includes design materials
+     such as schematics, mechanical drawings and circuit board
+     layouts, as well as software source code and documentation.
+
+1.4 'Covered Source' means Source that is explicitly made available
+     under this Licence.
+
+1.5 'Product' means any device, component, work or physical object,
+     whether in finished or intermediate form, arising from the use,
+     application or Conveyance of Covered Source.
+
+1.6 'Make' means to create or modify a Product by applying Covered
+     Source to produce a physical embodiment, regardless of the means
+     used including by manufacturing, assembling, compiling or
+     executing.
+
+1.7 'Available Component' means any part, sub-assembly, library or
+     code which:
+     a) is licensed under a Compatible Licence; or
+     b) is available with sufficient rights and information to
+        enable it to be used for Making Products without violating
+        this Licence.
+
+1.8 'External Material' means anything (including Source) that is
+     not Covered Source or an Available Component, and that is
+     referenced from, linked to, or otherwise used by Covered Source.
+
+1.9 'Complete Source' means the set of all Source necessary to Make
+     a Product, in the preferred form for making modifications,
+     including necessary installation, build and configuration
+     information. Complete Source need not include Available
+     Components or External Material.
+
+1.10 'Source Location' means a location where a Licensor has placed
+     Covered Source, and which that Licensor reasonably believes will
+     remain easily accessible for at least three years.
+
+1.11 'Notice' means communication to the recipients of Covered Source
+     or Products of the rights granted under this Licence.
+
+1.12 'Licensee' or 'You' means any person exercising rights under
+     this Licence.
+
+1.13 'Licensor' means a natural or legal person who creates or
+     modifies Covered Source. A Licensor may or may not provide
+     Covered Source to a Licensee. A person who Conveys Covered
+     Source is a Licensor for that Covered Source.
+
+1.14 'Convey' means to communicate to third parties, by any means,
+     Covered Source or a Product, whether or not for a fee.
+
+2 Applicability
+
+2.1 This Licence governs the use, copying, modification, Conveying
+     of Covered Source and Products, and the Making of Products. By
+     exercising any right granted under this Licence, You irrevocably
+     accept these terms and conditions.
+
+2.2 This Licence is granted by each Licensor for their Covered Source
+     to each Licensee for the maximum duration of rights under
+     applicable copyright, patent and other laws.
+
+2.3 You must not attempt to restrict use of Covered Source by third
+     parties, except as allowed by this Licence.
+
+3 Copying, Modifying and Conveying Covered Source
+
+3.1 You may copy and Convey verbatim copies of Covered Source, in any
+     medium, provided You retain all Notices that appear on the
+     Covered Source.
+
+3.2 You may modify Covered Source, and copy and Convey such modified
+     Covered Source, provided that You:
+     a) retain all Notices that appear on the Covered Source;
+     b) add a Notice stating that You modified the Covered Source and
+        the date of any modification; and
+     c) license the modified Covered Source under this Licence or a
+        Compatible Licence.
+
+3.3 You may Convey Covered Source (including modified Covered Source)
+     as part of a larger work under different licence terms, provided
+     that the Covered Source remains available under this Licence.
+
+4 Making and Conveying Products
+
+4.1 You may Make Products and Convey Products, provided that You
+     ensure that recipients of Products can access Complete Source
+     for that Product either:
+     a) by including Complete Source with the Product; or
+     b) by including a Notice specifying a Source Location where
+        Complete Source is available, for at least three years after
+        You last Conveyed that Product.
+
+4.2 You may Convey Products under different licence terms provided
+     that You comply with 4.1.
+
+5 Research and Other Non-commercial Use
+
+5.1 You may Make and use Products for research and other
+     non-commercial purposes without Conveying them, without
+     complying with section 4.
+
+6 DISCLAIMER AND LIABILITY
+
+6.1 DISCLAIMER OF WARRANTY — Covered Source and Products are provided
+     'as is', without warranty of any kind, express or implied,
+     including but not limited to warranties of merchantability,
+     fitness for a particular purpose, and non-infringement. The
+     entire risk as to the quality and performance of Covered Source
+     and Products is with You.
+
+6.2 LIMITATION OF LIABILITY — In no event shall any Licensor be
+     liable for any damages arising out of or related to this Licence
+     or the use of Covered Source or Products, including but not
+     limited to direct, indirect, special, incidental or
+     consequential damages, even if advised of the possibility of
+     such damages.
+
+7 Patents
+
+7.1 Subject to the terms of this Licence, each Licensor grants You a
+     licence under any patent claims Licensors can licence or become
+     able to licence, to the extent necessary to Make, use, sell,
+     offer for sale, import and otherwise Convey Products and Covered
+     Source, for the term of those patents.
+
+7.2 If You initiate patent litigation against any entity alleging
+     that Covered Source or a Product infringes a patent, then any
+     patent licences granted to You under this Licence for that
+     Covered Source terminate as of the date such litigation is
+     filed.
+
+8 General
+
+8.1 If any provision of this Licence is held unenforceable, the
+     remainder continues in effect.
+
+8.2 This Licence is the entire agreement between Licensor and
+     Licensee with respect to Covered Source. It supersedes prior
+     discussions and agreements.
+
+8.3 Except as required by applicable law or agreed in writing,
+     Covered Source is provided without warranties; You assume the
+     cost of all necessary servicing, repair or correction.
+
+8.4 The CERN logo and name are trademarks of CERN and may not be used
+     without permission except for factual reference to this Licence.
+
+---
+
+Application note for this repository:
+
+Hardware design materials under `hardware/` (schematics, BOM, mechanical
+descriptions, and any Gerber files released later) are licensed under
+CERN-OHL-P-2.0 as stated above.
+
+Software and firmware under `firmware/` remain under the MIT License
+(see `LICENSE`).
+
+Documentation under `docs/` and top-level markdown may be used under
+either licence consistent with the materials they describe.

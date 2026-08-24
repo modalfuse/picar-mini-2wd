@@ -1,0 +1,22 @@
+PiCar Mini 2WD v1.1 — 第 1 章烧录速查
+========================================
+
+1. 安装 Thonny: https://thonny.org/
+2. USB 连接 ESP32-C3 SuperMini（需数据线，非仅充电线）
+3. Thonny -> 工具 -> 选项 -> 解释器
+   - 解释器: MicroPython (ESP32)
+   - 端口: 选择 C3 对应串口
+4. 点击 "Install or update MicroPython (esptool)"
+   - Family: ESP32-C3
+   - Variant: generic / ESP32_GENERIC_C3
+   - Version: 建议稳定版（本项目文档常用 v1.27.0）
+5. 若需下载模式: 按住 BOOT -> 点 RESET -> 松开 BOOT
+6. 完成后 Shell 出现 >>> ，运行 hello.py
+
+可选命令行 (esptool):
+  PORT=/dev/cu.usbmodem101   # 按本机修改
+  esptool.py --chip esp32c3 --port $PORT erase_flash
+  esptool.py --chip esp32c3 --port $PORT --baud 460800 \
+    write_flash 0 ESP32_GENERIC_C3-v1.27.0.bin
+
+调试上电: 先 USB 后电池；异常短按 RESET。
