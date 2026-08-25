@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use PiCar Mini 2WD, please cite this software and the accompanying preprint."
+type: software
+title: "PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot"
+version: "1.1.0"
+date-released: "2026-08-25"
+url: "https://github.com/modalfuse/picar-mini-2wd"
+repository-code: "https://github.com/modalfuse/picar-mini-2wd"
+license: "MIT"
+authors:
+  - family-names: Liu
+    given-names: Qiang
+    email: liuq@bipt.edu.cn
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: Sun
+    given-names: Zeyu
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: Peng
+    given-names: Han
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: An
+    given-names: Xiang
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: Lu
+    given-names: Sichao
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: Li
+    given-names: Boxuan
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+  - family-names: Yang
+    given-names: Qiang
+    affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+keywords:
+  - educational robotics
+  - ESP32-C3
+  - MicroPython
+  - open hardware
+  - 2WD
+# doi: filled after Zenodo minting

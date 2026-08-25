@@ -30,3 +30,6 @@ __Previews/
 .env.*
 *.pem
 credentials*
+
+# Zenodo local state
+scripts/.zenodo_*.json

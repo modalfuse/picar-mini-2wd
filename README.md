@@ -41,6 +41,16 @@ Low-cost **2WD smart car** with **ESP32-C3 SuperMini** + integrated **driver boa
 - Tutorial: https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/micropython-2wd-tutorial/
 - Author site: https://www.pythonguru.cn/homepage.html
 
+## Cite / DOI
+
+Software citation metadata: [CITATION.cff](CITATION.cff).
+
+<!-- DOI badge filled after Zenodo publish, e.g.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+-->
+
+Zenodo archival DOI will be recorded here and in the accompanying preprint after the first published deposition / GitHub-linked release.
+
 ## Repository layout
 
 ```

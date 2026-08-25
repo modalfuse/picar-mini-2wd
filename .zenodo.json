@@ -1,0 +1,63 @@
+{
+  "title": "PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1)",
+  "description": "Open low-cost 2WD educational robot: ESP32-C3 SuperMini + integrated driver board (TC1508A, power path, LEDs, buttons, ultrasonic header), MicroPython eight-chapter firmware, BOM, and documentation. Hardware under CERN-OHL-P-2.0; software under MIT.",
+  "upload_type": "software",
+  "publication_date": "2026-08-25",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "educational robotics",
+    "ESP32-C3",
+    "MicroPython",
+    "2WD",
+    "open hardware",
+    "STEM",
+    "TC1508A"
+  ],
+  "creators": [
+    {
+      "name": "Liu, Qiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Sun, Zeyu",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Peng, Han",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "An, Xiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Lu, Sichao",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Li, Boxuan",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Yang, Qiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/modalfuse/picar-mini-2wd",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "version": "1.1.0"
+}
