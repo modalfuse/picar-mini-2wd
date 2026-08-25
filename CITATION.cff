@@ -36,4 +36,11 @@ keywords:
   - MicroPython
   - open hardware
   - 2WD
-# doi: filled after Zenodo minting
+doi: 10.5281/zenodo.22088329
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22088329
+    description: Zenodo version DOI for v1.1.0
+  - type: doi
+    value: 10.5281/zenodo.22088328
+    description: Zenodo concept DOI (all versions)

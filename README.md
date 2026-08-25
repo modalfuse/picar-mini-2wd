@@ -43,13 +43,18 @@ Low-cost **2WD smart car** with **ESP32-C3 SuperMini** + integrated **driver boa
 
 ## Cite / DOI
 
-Software citation metadata: [CITATION.cff](CITATION.cff).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088329.svg)](https://doi.org/10.5281/zenodo.22088329)
 
-<!-- DOI badge filled after Zenodo publish, e.g.
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+- **Version DOI (v1.1.0):** https://doi.org/10.5281/zenodo.22088329  
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.22088328  
+- Record: https://zenodo.org/records/22088329  
+- Citation file: [CITATION.cff](CITATION.cff)
 
-Zenodo archival DOI will be recorded here and in the accompanying preprint after the first published deposition / GitHub-linked release.
+```
+Liu, Q., Sun, Z., Peng, H., An, X., Lu, S., Li, B., & Yang, Q. (2026).
+PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1) (v1.1.0).
+Zenodo. https://doi.org/10.5281/zenodo.22088329
+```
 
 ## Repository layout
 
