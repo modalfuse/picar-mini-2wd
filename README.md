@@ -41,7 +41,19 @@ Low-cost **2WD smart car** with **ESP32-C3 SuperMini** + integrated **driver boa
 - Tutorial: https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/micropython-2wd-tutorial/
 - Author site: https://www.pythonguru.cn/homepage.html
 
-## Cite / DOI
+## Preprint
+
+- **Preprints.org:** [PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education](https://www.preprints.org/manuscript/202608.1857/v1)
+- **DOI:** https://doi.org/10.20944/preprints202608.1857.v1
+- Manuscript ID: `202608.1857/v1` (Posted 2026-08-26)
+
+```
+Liu, Q.; Sun, Z.; Peng, H.; An, X.; Lu, S.; Li, B.; Yang, Q.
+PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education.
+Preprints 2026, 202608.1857.v1. https://doi.org/10.20944/preprints202608.1857.v1
+```
+
+## Cite / Zenodo DOI
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088329.svg)](https://doi.org/10.5281/zenodo.22088329)
 

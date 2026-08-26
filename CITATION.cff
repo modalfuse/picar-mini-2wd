@@ -44,3 +44,33 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.22088328
     description: Zenodo concept DOI (all versions)
+  - type: doi
+    value: 10.20944/preprints202608.1857.v1
+    description: Preprints.org preprint DOI
+preferred-citation:
+  type: article
+  title: "PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education"
+  authors:
+    - family-names: Liu
+      given-names: Qiang
+    - family-names: Sun
+      given-names: Zeyu
+    - family-names: Peng
+      given-names: Han
+    - family-names: An
+      given-names: Xiang
+    - family-names: Lu
+      given-names: Sichao
+    - family-names: Li
+      given-names: Boxuan
+    - family-names: Yang
+      given-names: Qiang
+  year: 2026
+  doi: 10.20944/preprints202608.1857.v1
+  url: "https://www.preprints.org/manuscript/202608.1857/v1"
+  publisher:
+    name: Preprints.org
+  identifiers:
+    - type: other
+      value: "202608.1857.v1"
+      description: Preprints.org manuscript ID
