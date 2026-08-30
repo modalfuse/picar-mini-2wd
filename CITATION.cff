@@ -50,6 +50,9 @@ identifiers:
     value: 10.5281/zenodo.22088328
     description: Zenodo concept DOI (all versions; preferred for software citation)
   - type: doi
+    value: 10.5281/zenodo.22171784
+    description: Zenodo version DOI for v1.1.1 (enriched metadata)
+  - type: doi
     value: 10.5281/zenodo.22088329
     description: Zenodo version DOI for v1.1.0
   - type: doi

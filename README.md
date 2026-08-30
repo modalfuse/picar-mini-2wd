@@ -58,8 +58,9 @@ Preprints 2026, 202608.1857.v1. https://doi.org/10.20944/preprints202608.1857.v1
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088328.svg)](https://doi.org/10.5281/zenodo.22088328)
 
 - **Concept DOI (all versions; preferred for software citation):** https://doi.org/10.5281/zenodo.22088328  
+- **Latest version DOI (v1.1.1):** https://doi.org/10.5281/zenodo.22171784  
 - **Version DOI (v1.1.0):** https://doi.org/10.5281/zenodo.22088329  
-- Record (v1.1.0): https://zenodo.org/records/22088329  
+- Latest record: https://zenodo.org/records/22171784  
 - Citation file: [CITATION.cff](CITATION.cff) · Zenodo metadata: [.zenodo.json](.zenodo.json)
 
 ```
