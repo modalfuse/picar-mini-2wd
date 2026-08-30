@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use PiCar Mini 2WD, please cite this software and the accompanying preprint."
 type: software
 title: "PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot"
-version: "1.1.0"
-date-released: "2026-08-25"
+version: "1.1.1"
+date-released: "2026-08-30"
 url: "https://github.com/modalfuse/picar-mini-2wd"
 repository-code: "https://github.com/modalfuse/picar-mini-2wd"
 license: "MIT"
@@ -11,24 +11,30 @@ authors:
   - family-names: Liu
     given-names: Qiang
     email: liuq@bipt.edu.cn
+    orcid: "https://orcid.org/0000-0003-3699-5858"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: Sun
     given-names: Zeyu
+    orcid: "https://orcid.org/0009-0006-9090-7424"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: Peng
     given-names: Han
+    orcid: "https://orcid.org/0009-0007-0746-7024"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: An
     given-names: Xiang
+    orcid: "https://orcid.org/0009-0004-3167-4072"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: Lu
     given-names: Sichao
+    orcid: "https://orcid.org/0000-0002-5409-6154"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: Li
     given-names: Boxuan
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
   - family-names: Yang
     given-names: Qiang
+    orcid: "https://orcid.org/0000-0001-5767-4637"
     affiliation: "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
 keywords:
   - educational robotics
@@ -36,14 +42,16 @@ keywords:
   - MicroPython
   - open hardware
   - 2WD
-doi: 10.5281/zenodo.22088329
+  - pin contract
+  - STEM
+doi: 10.5281/zenodo.22088328
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22088328
+    description: Zenodo concept DOI (all versions; preferred for software citation)
   - type: doi
     value: 10.5281/zenodo.22088329
     description: Zenodo version DOI for v1.1.0
-  - type: doi
-    value: 10.5281/zenodo.22088328
-    description: Zenodo concept DOI (all versions)
   - type: doi
     value: 10.20944/preprints202608.1857.v1
     description: Preprints.org preprint DOI

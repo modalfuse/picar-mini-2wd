@@ -1,39 +1,36 @@
 {
   "title": "PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1)",
-  "description": "Open low-cost 2WD educational robot: ESP32-C3 SuperMini + integrated driver board (TC1508A, power path, LEDs, buttons, ultrasonic header), MicroPython eight-chapter firmware, BOM, and documentation. Hardware under CERN-OHL-P-2.0; software under MIT.",
   "upload_type": "software",
-  "publication_date": "2026-08-25",
   "access_right": "open",
   "license": "MIT",
-  "keywords": [
-    "educational robotics",
-    "ESP32-C3",
-    "MicroPython",
-    "2WD",
-    "open hardware",
-    "STEM",
-    "TC1508A"
-  ],
+  "language": "eng",
+  "version": "1.1.1",
+  "publication_date": "2026-08-30",
   "creators": [
     {
       "name": "Liu, Qiang",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0000-0003-3699-5858"
     },
     {
       "name": "Sun, Zeyu",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0009-0006-9090-7424"
     },
     {
       "name": "Peng, Han",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0009-0007-0746-7024"
     },
     {
       "name": "An, Xiang",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0009-0004-3167-4072"
     },
     {
       "name": "Lu, Sichao",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0000-0002-5409-6154"
     },
     {
       "name": "Li, Boxuan",
@@ -41,8 +38,21 @@
     },
     {
       "name": "Yang, Qiang",
-      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0000-0001-5767-4637"
     }
+  ],
+  "keywords": [
+    "educational robotics",
+    "ESP32-C3",
+    "MicroPython",
+    "2WD",
+    "open hardware",
+    "STEM",
+    "TC1508A",
+    "pin contract",
+    "differential drive",
+    "low-cost lab kit"
   ],
   "related_identifiers": [
     {
@@ -52,12 +62,30 @@
       "scheme": "url"
     },
     {
+      "identifier": "https://github.com/modalfuse/picar-mini-2wd/tree/v1.1.1",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.20944/preprints202608.1857.v1",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
       "identifier": "https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/micropython-2wd-tutorial/",
       "relation": "isDocumentedBy",
       "resource_type": "other",
       "scheme": "url"
     }
   ],
-  "communities": [],
-  "version": "1.1.0"
+  "notes": "This software/hardware archive accompanies the preprint PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education (https://doi.org/10.20944/preprints202608.1857.v1). Software under MIT; hardware design materials under CERN-OHL-P-2.0. Commercial third-party trademarks (e.g. Espressif, MicroPython) remain with their owners.",
+  "description": "<p>This open educational archive provides the <strong>PiCar Mini 2WD</strong> lab stack used in the preprint <em>PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education</em>.</p>\n\n<p>The deposit supports classroom adoption and independent reuse of four coordinated parts: (1) a <strong>single-board interconnect contract</strong> around an ESP32-C3 SuperMini and connectorized motors, battery, and ultrasonic sensing; (2) a strap-safe board-level <strong>pin contract</strong> (GPIO2 / 8 / 9 free of peripherals; left/right buttons and LEDs aligned with the physical layout); (3) an eight-chapter <strong>MicroPython</strong> path with observable exits and modular autostart; and (4) a reprintable <strong>one-kit-per-student</strong> cost stack on the order of USD 5–6 / CNY 35–40, released for institutional fabrication.</p>\n\n<h2>Included materials</h2>\n<ul>\n<li><strong>Driver-board design package</strong>: schematic exports, BOM CSV, and hardware documentation for driver board v1.1 (TC1508A dual H-bridge, power path, status LEDs, soft buttons, ultrasonic header)</li>\n<li><strong>Eight-chapter MicroPython firmware</strong>: progressive examples from flashing / GPIO through differential drive, ultrasonic ranging, integrated demos, and modular <code>main.py</code> autostart</li>\n<li><strong>Shared libraries</strong> under <code>firmware/micropython/lib/</code> (<code>Motor</code>/<code>Car</code>, ultrasonic, button, status LED, pin <code>config</code>)</li>\n<li><strong>Teaching documentation</strong>: overview, pinout, BOM, assembly, and flashing guides</li>\n<li><strong>Photos and diagrams</strong> for classroom and preprint figures (English filenames)</li>\n</ul>\n\n<h2>Repository layout</h2>\n<ul>\n<li><code>docs/</code>: system overview, pin map, BOM, assembly, flashing</li>\n<li><code>hardware/</code>: schematic PDF, BOM CSV, board notes (CERN-OHL-P-2.0)</li>\n<li><code>firmware/micropython/chapter-01 … chapter-08/</code>: chapter examples</li>\n<li><code>firmware/micropython/lib/</code>: reusable drivers and pin config</li>\n<li><code>images/</code>: device and board photographs / diagrams</li>\n</ul>\n\n<h2>Quick start</h2>\n<ol>\n<li>Flash MicroPython for <code>ESP32_GENERIC_C3</code> (see <code>docs/flashing.md</code>)</li>\n<li>Run <code>firmware/micropython/chapter-01/hello.py</code>, then chapter-02 LED examples</li>\n<li>Follow chapters 03–08 through buttons, PWM, differential drive, ranging, and integrated demos</li>\n</ol>\n<p><strong>Power tip:</strong> connect USB to the C3 first, then enable the battery switch.</p>\n\n<h2>Licence boundary</h2>\n<p>Firmware and software files are released under the <strong>MIT</strong> License. Hardware design materials under <code>hardware/</code> are released under <strong>CERN-OHL-P-2.0</strong>. See <code>LICENSE</code>, <code>LICENSE-HARDWARE</code>, and <code>NOTICE.md</code>.</p>\n\n<h2>Citation</h2>\n<p>Please cite this software/hardware archive as:</p>\n<blockquote>Liu Q, Sun Z, Peng H, An X, Lu S, Li B, Yang Q. PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1). Zenodo. <a href=\"https://doi.org/10.5281/zenodo.22088328\">https://doi.org/10.5281/zenodo.22088328</a></blockquote>\n<p>Please cite the accompanying preprint when referring to the scientific and teaching design:</p>\n<blockquote>Liu Q, Sun Z, Peng H, An X, Lu S, Li B, Yang Q. PiCar Mini 2WD: A Strap-Safe, Open MicroPython Lab Stack for Low-Cost 2WD Robotics Education. Preprints 2026, 202608.1857.v1. <a href=\"https://doi.org/10.20944/preprints202608.1857.v1\">https://doi.org/10.20944/preprints202608.1857.v1</a></blockquote>\n<p>Citation metadata are also provided in <code>CITATION.cff</code>.</p>\n<p><strong>Software repository:</strong> <a href=\"https://github.com/modalfuse/picar-mini-2wd\">https://github.com/modalfuse/picar-mini-2wd</a><br>\n<strong>Project page:</strong> <a href=\"https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/\">https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/</a><br>\n<strong>Tutorial:</strong> <a href=\"https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/micropython-2wd-tutorial/\">https://www.pythonguru.cn/research/picar-mini-2wd-v1-1/micropython-2wd-tutorial/</a></p>"
 }

@@ -55,17 +55,17 @@ Preprints 2026, 202608.1857.v1. https://doi.org/10.20944/preprints202608.1857.v1
 
 ## Cite / Zenodo DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088329.svg)](https://doi.org/10.5281/zenodo.22088329)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088328.svg)](https://doi.org/10.5281/zenodo.22088328)
 
+- **Concept DOI (all versions; preferred for software citation):** https://doi.org/10.5281/zenodo.22088328  
 - **Version DOI (v1.1.0):** https://doi.org/10.5281/zenodo.22088329  
-- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.22088328  
-- Record: https://zenodo.org/records/22088329  
-- Citation file: [CITATION.cff](CITATION.cff)
+- Record (v1.1.0): https://zenodo.org/records/22088329  
+- Citation file: [CITATION.cff](CITATION.cff) · Zenodo metadata: [.zenodo.json](.zenodo.json)
 
 ```
 Liu, Q., Sun, Z., Peng, H., An, X., Lu, S., Li, B., & Yang, Q. (2026).
-PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1) (v1.1.0).
-Zenodo. https://doi.org/10.5281/zenodo.22088329
+PiCar Mini 2WD: Open ESP32-C3 MicroPython Educational Robot (driver board v1.1).
+Zenodo. https://doi.org/10.5281/zenodo.22088328
 ```
 
 ## Repository layout
